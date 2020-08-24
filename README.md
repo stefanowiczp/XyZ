@@ -4,6 +4,17 @@
 
 - eydis - React app
 
+
+## Frontend DEV
+Running the app* 
+
+**Runs on port `:3001`**
+```
+sudo bash scripts/run_dev.sh
+```
+
+**Installing new packages requires rebuilding container (run_dev.sh)*
+
 ## Docker
 Building Docker image
 ```
@@ -17,11 +28,3 @@ Entering `shell` inside of the container
 ```
 bash scripts/docker_shell_front.sh
 ```
-
-## Frontend DEV
-Running the app*
-```
-bash scripts/run_dev.sh
-```
-
-**Installing packages requires rebuilding container (run_dev.sh)*
